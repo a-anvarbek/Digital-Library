@@ -92,7 +92,7 @@ section{
 
 }
 
-.result{
+#result{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -105,7 +105,7 @@ section{
     margin: 20px 0;
 }
 
-.result button{
+#result button{
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -115,7 +115,7 @@ section{
     background-color: #ddd;
 }
 
-.result p{
+#result p{
     margin: 10px;
     padding: 10px;
     font-size: 1.2em;
@@ -123,12 +123,12 @@ section{
     background-color: #ddd;
 }
 
-.result .read:hover{
+#result #read:hover{
     background-color: #74c69d;
     color: #ddd;
 }
 
-.result .del:hover{
+#result #del:hover{
     background-color: #ff6666;
     color: #ddd;
 }
